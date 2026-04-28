@@ -151,8 +151,8 @@ Module.RunEye = function(self, eye)
     local humanoid = char:WaitForChild("Humanoid")
     local camera = workspace.CurrentCamera
     
-    eye.Model:PivotTo(char.HumanoidRootPart.CFrame * CFrame.new(0, 0, 12)
-    eye.Model.Parent = workspace
+    eye.Model:PivotTo(char.HumanoidRootPart.CFrame * CFrame.new(0, 0, 12))
+    eye.Model.Parent = workspacel
     
     local config = eye.Config
     local dead = false
