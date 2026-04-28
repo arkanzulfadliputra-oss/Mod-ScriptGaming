@@ -152,7 +152,7 @@ Module.RunEye = function(self, eye)
     local camera = workspace.CurrentCamera
     
     eye.Model:PivotTo(char.HumanoidRootPart.CFrame * CFrame.new(0, 0, 12))
-    eye.Model.Parent = workspacel
+    eye.Model.Parent = workspace
     
     local config = eye.Config
     local dead = false
